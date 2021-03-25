@@ -10,7 +10,7 @@ describe('Test with Backend',() => {
     })
 
     //it('should log in',() => {
-      //  cy.log('Yeeey we logged in!')
+      //  cy.log('Yeeey we logged in -sure!')
     //})
 
     it('verify correct request and responce',() => {
