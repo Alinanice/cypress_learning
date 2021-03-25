@@ -1,0 +1,18 @@
+{
+    "baseUrl":"http://localhost:4200",
+    "ignoreTestFiles":"**/examples/*",
+    "viewportHeight":1920,
+    "viewportWihdth":1080,
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+      
+    "env": {
+       "retries": 2,
+       "username": "alinamazur82@gmail.com",
+       "password": "cypresstest1",
+       "apiUrl": "https://conduit.productionready.io/"
+    }
+}
+
