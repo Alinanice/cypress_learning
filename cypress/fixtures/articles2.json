@@ -1,0 +1,19 @@
+{
+    "article": {
+        "title": "Article Title - text",
+        "slug": "article-title-text-wzj5b",
+        "body": "Test article on the page - text",
+        "createdAt": "2021-03-16T17:12:39.647Z",
+        "updatedAt": "2021-03-16T17:12:39.647Z",
+        "tagList": [],
+        "description": "What is the article about? - text",
+        "author": {
+            "username": "ferrro",
+            "bio": "I4fOLvw69T",
+            "image": "https://www.ceskatelevize.cz/program/nadtitul/vecernicek/detail15/vecernicek_200.png",
+            "following": false
+        },
+        "favorited": true,
+        "favoritesCount": 1
+    }
+}
