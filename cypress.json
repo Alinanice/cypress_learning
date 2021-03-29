@@ -3,11 +3,11 @@
     "ignoreTestFiles":"**/examples/*",
     "viewportHeight":1920,
     "viewportWihdth":1080,
+    "video": false,
     "reporter": "cypress-multi-reporters",
         "reporterOptions": {
         "configFile": "reporter-config.json"
     },
-      
     "env": {
        "retries": 2,
        "username": "alinamazur82@gmail.com",

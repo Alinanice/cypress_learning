@@ -9,11 +9,11 @@
     "test": "ng test",
     "lint": "ng lint --force",
     "e2e": "ng e2e",
-    "mochawesome:merge": "npx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "delete:reports": "rm -r cypress/results/* || true",
     "prereport": "npm run delete:reports",
+    "mochawesome:merge":"npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "cypress:run": "npx cypress run",
-    "cypress:run_qa": "npx cypress run-env configFile=qa",
+    "cypress:run_qa": "npx cypress run --env configFile=qa",
     "cypress:e2e": "start-test start http-get://localhost:4200 cypress:run"
   },
   "pre-commit": [
