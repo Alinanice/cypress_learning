@@ -12,6 +12,7 @@
     "delete:reports": "rm -r cypress/results/* || true",
     "prereport": "npm run delete:reports",
     "mochawesome:merge":"npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
+    "junit:merge":"npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
     "cypress:run": "npx cypress run",
     "cypress:run_qa": "npx cypress run --env configFile=qa",
     "cypress:e2e": "start-test start http-get://localhost:4200 cypress:run"

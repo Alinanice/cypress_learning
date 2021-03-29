@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-03-26T17:37:23" tests="0" file="cypress\integration\FirstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with Backend" timestamp="2021-03-26T17:37:23" tests="5" time="17.1240" failures="0">
+  
+  <testcase name="Test with Backend verify correct request and responce" time="6.1120" classname="verify correct request and responce"></testcase>
+  
+  <testcase name="Test with Backend should gave tags with routing object" time="1.8590" classname="should gave tags with routing object"></testcase>
+  
+  <testcase name="Test with Backend verify global feed likes count" time="1.8830" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with Backend intercepting and modifying the request and responce" time="3.3260" classname="intercepting and modifying the request and responce"></testcase>
+  
+  <testcase name="Test with Backend delete a new article in the global feed" time="3.9440" classname="delete a new article in the global feed"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-03-26T17:57:45" tests="0" file="cypress\integration\FirstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with Backend" timestamp="2021-03-26T17:57:45" tests="5" time="18.2330" failures="0">
+  
+  <testcase name="Test with Backend verify correct request and responce" time="6.2150" classname="verify correct request and responce"></testcase>
+  
+  <testcase name="Test with Backend should gave tags with routing object" time="1.6900" classname="should gave tags with routing object"></testcase>
+  
+  <testcase name="Test with Backend verify global feed likes count" time="2.0100" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with Backend intercepting and modifying the request and responce" time="3.5350" classname="intercepting and modifying the request and responce"></testcase>
+  
+  <testcase name="Test with Backend delete a new article in the global feed" time="4.7830" classname="delete a new article in the global feed"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-03-26T17:58:23" tests="0" file="cypress\integration\SecondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2021-03-26T17:58:23" tests="1" time="3.1760" failures="0">
+  
+  <testcase name="Test log out verify use can log out successfully" time="3.1760" classname="verify use can log out successfully"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-03-26T17:41:26" tests="0" file="cypress\integration\SecondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2021-03-26T17:41:26" tests="1" time="3.1730" failures="0">
+  
+  <testcase name="Test log out verify use can log out successfully" time="3.1730" classname="verify use can log out successfully"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-03-26T17:40:48" tests="0" file="cypress\integration\FirstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with Backend" timestamp="2021-03-26T17:40:48" tests="5" time="18.0330" failures="0">
+  
+  <testcase name="Test with Backend verify correct request and responce" time="6.7460" classname="verify correct request and responce"></testcase>
+  
+  <testcase name="Test with Backend should gave tags with routing object" time="1.8630" classname="should gave tags with routing object"></testcase>
+  
+  <testcase name="Test with Backend verify global feed likes count" time="1.6180" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with Backend intercepting and modifying the request and responce" time="3.5790" classname="intercepting and modifying the request and responce"></testcase>
+  
+  <testcase name="Test with Backend delete a new article in the global feed" time="4.2270" classname="delete a new article in the global feed"></testcase>
+  
+</testsuite>
+
+</testsuites>
